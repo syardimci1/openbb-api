@@ -1,0 +1,4 @@
+[deploy]
+  [deploy.ports]
+    [deploy.ports."8000"]
+      protocol = "http"
