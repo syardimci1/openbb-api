@@ -3,4 +3,4 @@
     [deploy.ports."8000"]
       protocol = "http"
   [deploy.start]
-    command = "uvicorn api:app --host 0.0.0.0 --port $PORT"
+    command = "uvicorn app:app --host 0.0.0.0 --port $PORT"
